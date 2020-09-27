@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/*.nave{
+   
+    background: rgba(214, 189, 120, 0.842);
+}*/
+.navbar-brand {
+    font-size: 40px !important;
+    font-weight: bold;
+    color: #ffa500;
+    margin-left: 50px;
+}
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(/images/bea.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    animation: slide 10s infinite;
+    
+}
+@keyframes slide{
+    20%{background-image: url(/images/islama.jpg);}
+    35%{background-image: url(/images/FAISLA.jpg);}
+    60%{background-image: url(/images/darya.jpg);}
+    80%{background-image: url(/images/murr.jpg); }
+    100%{background-image: url(/images/SAWAT.jpg);} 
+}
+.nave{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.do {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    height: auto;
+}
+.do h6{
+    font-size: 40px;
+    font-weight: lighter;
+}
+.do h3{
+    font-size: 50px;
+    font-weight: bold;
+}
+.do p{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.change_content:after{
+    content: '';
+    animation: changetext 10s infinite linear;
+    color: #ffa500;
+}
+@keyframes changetext{
+    0% {content: "LAHORE"; }
+    20%{content: "ISLAMABAD";}
+    35%{content: "FAISLABAD";}
+    60%{content: "DARYA BAG";}
+    80%{content: "MUREE"; }
+    100%{content: "SAWAT";}
+}
+.top{
+    margin-top: 330px;
+    height: 110vh;
+    background-color:#ffa500 ;
+   
+}
+.card-title{
+    font-size: 25px;
+}
+
+.advantages h1{
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.PLACE{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    padding: 30px 10px;
+}
+.to{
+    font-weight: bold;
+    
+}
+.extra{
+    
+    background: #fff;
+    border: none;
+    padding: 50px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.extra:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-20px);
+}
+
+.contact h1{
+   
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+
+
+@media (max-width:1199px) {
+    .top{
+        height: 190vh;
+        background-color:#ffa500 ;
+    }
+}
+
+@media (max-width:767px) {
+    .top{
+        height: 340vh;
+        background-color:#ffa500 ;
+    }
+}
+@media (max-width:564px) {
+    .top{
+        height: 330vh;
+        background-color:#ffa500 ;
+    }
+    .card{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    @media (max-width:564px) {
+        .top{
+            height: 310vh;
+            background-color:#ffa500 ;
+        }
+    }
+    @media (max-width:500px) {
+        .top{
+            height: 270vh;
+            background-color:#ffa500 ;
+        }
+        .do{
+            margin-top: 150px;
+            margin-bottom: 80px;
+            height: auto;
+        }
+        .do h6{
+            font-size: 26px;
+            font-weight: lighter;
+        }
+        .do h3{
+            font-size: 37px;
+            font-weight: bold;
+        }
+        .do p{
+            font-size: 17px;
+            font-weight: lighter;
+        }
+    }
+}
