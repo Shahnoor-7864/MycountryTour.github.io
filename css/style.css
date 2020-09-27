@@ -15,7 +15,7 @@
 }
 
 body{
-    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(/images/bea.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../images/bea.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -24,11 +24,11 @@ body{
     
 }
 @keyframes slide{
-    20%{background-image: url(/images/islama.jpg);}
-    35%{background-image: url(/images/FAISLA.jpg);}
-    60%{background-image: url(/images/darya.jpg);}
-    80%{background-image: url(/images/murr.jpg); }
-    100%{background-image: url(/images/SAWAT.jpg);} 
+    20%{background-image: url(../images/islama.jpg);}
+    35%{background-image: url(../images/FAISLA.jpg);}
+    60%{background-image: url(../images/darya.jpg);}
+    80%{background-image: url(../images/murr.jpg); }
+    100%{background-image: url(../images/SAWAT.jpg);} 
 }
 .nave{
     text-transform: uppercase;
